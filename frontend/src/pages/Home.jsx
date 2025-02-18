@@ -17,6 +17,7 @@ import About from '../components/About/About';
 import ServiceList from '../components/Services/ServiceList';
 import DoctorList from '../components/Doctors/DoctorList';
 import FaqList from '../components/Faq/FaqList';
+import Testimonial from '../components/Testimonial/Testimonial';
 const Home = () => {
   return (
     <>
@@ -154,7 +155,7 @@ const Home = () => {
         </div>
       </section>
       <About />
-      {/*=============Services Section==================*/}
+      {/*==========Services Section============*/}
       <section>
         <div className="container">
           <div className='xl:w-[470px] mx-auto'>
@@ -165,9 +166,9 @@ const Home = () => {
           <ServiceList/> 
         </div>
       </section>
-      {/*=============Services End==================*/}
+      {/*=============Services End=============*/}
 
-      {/*=============Feature Section==================*/}
+      {/*=============Feature Section============*/}
         <section>
           <div className='container'>
             <div className='flex items-center justify-between flex-col lg:flex-row'>
@@ -229,9 +230,9 @@ const Home = () => {
             </div>
           </div>
         </section>
-      {/*=============Feature Section End==================*/}
+      {/*=============Feature Section End==============*/}
 
-      {/*============= Our Great Doctors=================*/}
+      {/*============= Our Great Doctors==============*/}
         <section>
           <div className='container'>
             <div className='xl:w-[470px] mx-auto'>
@@ -243,9 +244,9 @@ const Home = () => {
           </div>
         </section>
 
-      {/*============= Our Great Doctors=================*/}   
+      {/*============= Our Great Doctors==============*/}   
 
-      {/*=============FAQ Section==================*/}   
+      {/*=============FAQ Section===============*/}   
       <section>
         <div className='container'>
           <div className='flex justify-between gap-[50px] lg:gap-0'>
@@ -259,7 +260,21 @@ const Home = () => {
           </div>
         </div>
       </section>
-      {/*=============FAQ Section End==================*/}
+      {/*===========FAQ Section End===========*/}
+
+      {/*========== Testimonial ============*/}
+      <section>
+        <div className='container'>
+          <div className='xl:w-[470px] mx-auto'>
+            <h2 className='heading text-center'>What our patient says</h2>
+            <p className='text__para text-center'>
+              World-class care for everyone. Our health System offers unmatched, expert health care.
+            </p>
+          </div>
+          <Testimonial/>
+        </div>
+      </section>
+      {/*========== Testimonial End ===========*/}      
     </>
 
   );
