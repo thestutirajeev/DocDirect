@@ -11,15 +11,15 @@ const socialLinks = [
     icon: <AiFillYoutube className="group-hover:text-white w-4 h-5" />,
   },
     {
-    path: "https://www.github.com/thestutirajeev",
+    path: "https://www.github.com/ishjaiswal7",
     icon: <AiFillGithub className="group-hover:text-white w-4 h-5" />,
   },
     {
-    path: "https://www.instagram.com/thestutirajeev",
+    path: "https://www.instagram.com/ishjaiswal7",
     icon: <AiOutlineInstagram className="group-hover:text-white w-4 h-5" />,
   },
     {
-    path: "https://www.linkedin.com/in/thestutirajeev/",
+    path: "https://www.linkedin.com/in/ishjaiswal7/",
     icon: <RiLinkedinFill className="group-hover:text-white w-4 h-5" />,
   },
 
