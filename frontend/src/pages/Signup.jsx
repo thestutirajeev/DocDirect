@@ -44,12 +44,12 @@ const Signup = () => {
           </div>
 
           {/* ========== sign up form ========== */}
-          <div className="rounded-l-lg lg:pl py-10">
+          <div className="rounded-l-lg lg:pl-16 py-10">
             <h3 className="text-headingColor text-[22px] leading-9 font-bold mb-10">
               Create an <span className="text-primaryColor">account</span>
             </h3>
 
-            <from onSubmit={submitHandler}>
+            <form onSubmit={submitHandler}>
               <div className="mb-5">
                 <input 
                   type="text" 
@@ -57,7 +57,7 @@ const Signup = () => {
                   name="name" 
                   value={formData.name}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor rounder-md cursor-pointer"
+                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
                   required 
                 />
               </div>
@@ -69,7 +69,7 @@ const Signup = () => {
                   name="email" 
                   value={formData.email}
                   onChange={handleInputChange}
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor rounder-md cursor-pointer"
+                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
                   required 
                 />
               </div>
@@ -81,7 +81,7 @@ const Signup = () => {
                   name="password" 
                   value={formData.password}
                   onChange={handleInputChange} 
-                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor rounder-md cursor-pointer"
+                  className="w-full pr-4 py-3 border-b border-solid border-[#0066ff61] focus:outline-none focus:border-b-primaryColor text-[16px] leading-7 text-headingColor placeholder:text-textColor cursor-pointer"
                   required 
                 />
               </div>
@@ -151,7 +151,7 @@ const Signup = () => {
                 Already have an account? <Link to='/login' className="text-primaryColor font-medium ml-1">Login</Link>
               </p>
 
-            </from>
+            </form>
           </div>
         </div>
       </div>
